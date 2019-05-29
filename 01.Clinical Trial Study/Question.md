@@ -1,6 +1,8 @@
 * Q1: Please design the hypothesis and test the difference between posttreatment of treatment A and posttreatment of treatment B, and write down the formula, results and your code?
 * Q2: For each treatment, pretreatment and posttreatment will be paired data, please use three methods we have learned in the class to test the difference between pretreatment and posttreatment for treatment B?
+
 Table 1. FEV, meansured at pre and posttreatment and relative change from basline in 24 patients.
+
 |Subject| Treatment| Pretreatment FEV,(ml) |Posttreatment FEV,(ml) |Relative change (%)|
 |:---:|:---:|:---:|:---:|:---:|
 |1	|B	|2188	|2461	|12.5%|
