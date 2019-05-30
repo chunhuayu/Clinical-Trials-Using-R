@@ -1,4 +1,7 @@
+
+### Q3-1 ###
 > library(randPack)
+# the ratio of A, B and C = 4:1:2
 > trts=c(A=4L,B=1L,C=2L)
 > trts
 A B C 
@@ -16,6 +19,7 @@ A B C
 Slot "type":
 [1] "PermutedBlock"
 
+# 350 patients will be assigned as the following treatments, A:200, B:50, C:100
 > tot=randPack:::.newPBlock(expd)
 > tot
   [1] "A" "B" "A" "A" "A" "C" "C" "A" "C" "C" "A" "A" "B" "A" "C" "A" "A" "B" "A"
@@ -41,7 +45,11 @@ Slot "type":
 tot
   A   B   C 
 200  50 100 
+
+# Three stratum, age<40,  40<age<50, 50<age
 > bls=rep(1:3,each=7)
+
+# within strata age<40
 > split(tot,bls)
 $`1`
   [1] "A" "B" "A" "A" "A" "C" "C" "A" "C" "C" "B" "A" "A" "A" "A" "C" "B" "A" "C"
@@ -52,7 +60,7 @@ $`1`
  [96] "A" "A" "B" "A" "B" "C" "A" "A" "C" "A" "A" "B" "A" "A" "C" "A" "C" "C" "A"
 [115] "C" "A" "A" "A" "B"
 
-
+# within strata. 40<age<50
 $`2`
   [1] "A" "C" "C" "A" "A" "B" "A" "C" "B" "A" "C" "A" "A" "A" "A" "C" "A" "B" "A"
  [20] "C" "A" "A" "C" "A" "A" "C" "A" "B" "A" "B" "C" "A" "C" "A" "A" "B" "A" "A"
@@ -62,6 +70,7 @@ $`2`
  [96] "A" "A" "C" "A" "C" "A" "A" "A" "B" "C" "C" "A" "A" "C" "B" "A" "A" "B" "C"
 [115] "A" "A" "C" "A" "A"
 
+#. within strata age>50
 $`3`
   [1] "C" "A" "A" "B" "A" "C" "A" "A" "A" "C" "A" "B" "A" "C" "A" "C" "A" "B" "C"
  [20] "A" "A" "A" "C" "B" "A" "C" "A" "A" "A" "A" "C" "A" "A" "C" "B" "A" "A" "C"
@@ -88,6 +97,8 @@ In split.default(tot, bls) :
 Warning message:
 In split.default(tot, bls) :
   data length is not a multiple of split variable
+
+# the subjects assignment of Treatment A within strata "age<40"         
 > ageAs1=blockrand(n=68,levels=1, stratum = "age<40 Trt A")
 > ageAs1
    id      stratum block.id block.size treatment
@@ -161,16 +172,22 @@ In split.default(tot, bls) :
 68 68 age<40 Trt A       28          4         1
 69 69 age<40 Trt A       28          4         1
 70 70 age<40 Trt A       28          4         1
+
+# the subjects assignment of Treatment A within strata "40<age<50"  
 > ageAs2=blockrand(n=68,levels=1, stratum = "40<age<50 Trt A")
+# the subjects assignment of Treatment A within strata "age>50"  
 > ageAs3=blockrand(n=68,levels=1, stratum = "age>50 Trt A")
+         
 > ageBs1=blockrand(n=68,levels=1, stratum = "age<40 Trt B")
 > ageBs2=blockrand(n=68,levels=1, stratum = "40<age<50 Trt B")
 > ageBs3=blockrand(n=68,levels=1, stratum = "age>50 Trt B")
+         
 > ageCs1=blockrand(n=68,levels=1, stratum = "age<40 Trt C")
 > ageCs2=blockrand(n=68,levels=1, stratum = "40<age<50 Trt C")
 > ageCs3=blockrand(n=68,levels=1, stratum = "age>50 Trt C")
  
-Q3-II
+### Q3-II ###
+# Applying the minimization randomization method. to this trial
 > rd=new("RandomDesc",treatments= trts, type="Minimization",numPatients=350L)
 > tot.rd=randPack:::.newRandom(rd)
 > tot.rd
