@@ -28,37 +28,38 @@ Using this example to estimate δ_π^2.
 
 9-10. There is a clinical trial regarding the Hypertension disease: two treatments are involved in this study (Treatment A and Treatment B), and the DBP values of 30 subjects are recorded at time point 1 and time point 5 for two treatments. 
 
-Subject	TRT	DBP1	DBP5	Age	Sex
-1	A	114	105	43	F
-2	A	116	101	51	M
-3	A	119	98	48	F
-4	A	115	101	42	F
-5	A	116	105	49	M
-6	A	117	102	47	M
-7	A	118	99	50	F
-8	A	120	102	61	M
-9	A	114	103	43	F
-10	A	115	97	51	M
-11	A	117	101	47	F
-12	A	116	102	45	M
-13	A	119	104	54	F
-14	A	118	99	52	M
-15	A	115	102	42	F
-16	B	114	113	39	M
-17	B	116	110	40	F
-18	B	114	109	39	F
-19	B	114	115	38	M
-20	B	116	109	39	F
-21	B	114	110	41	M
-22	B	119	115	56	F
-23	B	118	112	56	M
-24	B	114	108	38	F
-25	B	120	113	57	M
-26	B	117	115	47	F
-27	B	118	110	48	M
-28	B	121	115	61	F
-29	B	116	111	49	M
-30	B	118	112	52	M
+|Subject|	TRT|	DBP1|	DBP5|	Age|	Sex|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1	|A	|114|	105|	43|	F|
+|2	|A	|116|	101|	51|	M|
+|3	|A	|119|	98|	48|	F|
+|4	|A	|115|	101|	42|	F|
+|5      |A|	116	|105|	49|	M|
+|6	|A	|117|	102|	47|	M|
+|7	|A	|118|	99|	50|	F|
+|8	|A	|120|	102|	61|	M|
+|9	|A	|114|	103|	43|	F|
+|10	|A	|115|	97|	51|	M|
+|11	|A	|117|	101|	47|	F|
+|12	|A	|116|	102|	45|	M|
+|13	|A	|119|	104|	54|	F|
+|14	|A	|118|	99|	52|	M|
+|15     |A|	115	|102|	42|	F|
+|16	|B	|114|	113|	39|	M|
+|17	|B	|116|	110|	40|	F|
+|18	|B	|114|	109|	39|	F|
+|19	|B	|114|	115|	38|	M|
+|20	|B	|116|	109|	39|	F|
+|21	|B|114	|110|	41|	M|
+|22	|B|	119|	115|	56|	F|
+|23	|B|	118|	112|	56|	M|
+|24	|B|	114|	108|	38|	F|
+|25	|B|	120|	113|	57|	M|
+|26	|B|	117|	115|	47|	F|
+|27	|B|	118|	110|	48|	M|
+|28	|B|	121|	115|	61|	F|
+|29	|B|	116|	111|	49|	M|
+|30	|B|	118|	112|	52|	M|
 									
 9. Please design the hypothesis and test the mean difference of DBP5 between treatment A and treatment B, and write down the formula, results and your codes? (Please write down all equations and statistics)
 
