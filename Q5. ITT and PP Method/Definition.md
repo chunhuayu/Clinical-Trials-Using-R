@@ -1,5 +1,5 @@
 # Intention-To-Treat (ITT) vs. Per-Protocol (PP) 
-* Quoted from https://www.clinfo.eu/itt-vs-pp/
+* Reference : https://www.clinfo.eu/itt-vs-pp/
 ## The Intention-To-Treat (ITT) principle
 * The intention-to-treat principle defines that every patient randomized to the clinical study should enter the primary analysis. Accordingly, patients who drop out prematurely, are non-compliant to the study treatment, or even take the wrong study treatment, are included in the primary analysis within the respective treatment group they have been assigned to at randomization (“as randomized”).
 * Consequently, in an analysis according to the ITT principle, the original randomization and the number of patients in the treatment groups remain unchanged, the analysis population is as complete as possible, and a potential bias due to exclusion of patients is avoided. Thus, the patient set used for the primary analysis according to the ITT principle is called “full analysis set”.
