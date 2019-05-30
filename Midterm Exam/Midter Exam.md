@@ -23,6 +23,7 @@
 |E study	|148	|35|
 |F study	|10	|17|
 |G study	|47	|21|
+
 Using this example to estimate δ_π^2.
 
 9-10. There is a clinical trial regarding the Hypertension disease: two treatments are involved in this study (Treatment A and Treatment B), and the DBP values of 30 subjects are recorded at time point 1 and time point 5 for two treatments. 
