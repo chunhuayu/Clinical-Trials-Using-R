@@ -1,8 +1,8 @@
 Q1. Please read the paper, “Effects of candesartan in patients with chronic heart failure and reduced left-ventricular systolic function intolerant to angiotensin-converting-enzyme inhibitors: the CHARM-Alternative trial ”, and answer the following question.
 
-    * a) What’s the study design of this clinical trial? (Hint: randomized or non-randomized, single center or multiple center, blinded or not blinded, etc). What’s the motivation and advantages of the study design?
-    * b) what’s the objectives and endpoints of this clinical trial design? Why do investigators define these endpoints?
-    * c) Describe the patient population involved in this clinical trial.
+   * a) What’s the study design of this clinical trial? (Hint: randomized or non-randomized, single center or multiple center, blinded or not blinded, etc). What’s the motivation and advantages of the study design?
+   * b) what’s the objectives and endpoints of this clinical trial design? Why do investigators define these endpoints?
+   * c) Describe the patient population involved in this clinical trial.
 
 Q2. Results of Rapid Injection of 5-FU for Treatment of Advanced Carcinoma of the Large Bowel
 
