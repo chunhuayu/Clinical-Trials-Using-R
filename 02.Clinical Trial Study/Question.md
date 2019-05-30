@@ -4,6 +4,7 @@ Q1. Please read the paper, “Effects of candesartan in patients with chronic he
     * c) Describe the patient population involved in this clinical trial.
 
 Q2. Results of Rapid Injection of 5-FU for Treatment of Advanced Carcinoma of the Large Bowel
+
 |Group                                          |# of Patients                   |% Objective Response|
 |:---:|:---:|:---:|
 |1.| Sharp and Benefiel |                 15     |                                    65|
